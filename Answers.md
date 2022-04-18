@@ -45,7 +45,7 @@ Q: Please describe yourself using correctly formatted JSON.
     "in three words": {
         "curious": "I have an innate desire to understand everything that I encounter.",
         "organized": "Organization gives me peace of mind and allows me to accomplish large goals in small steps.",
-        "confident": "My natural confidence is an asset in persisting through tough development problems and accomplishing goals." 
+        "confident": "My natural confidence is an asset in persisting through tough software development challenges." 
     },
     "hobbies": {
         "computers": [
