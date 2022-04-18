@@ -73,7 +73,7 @@ Q: Please describe yourself using correctly formatted JSON.
             "basketball",
             "hockey",
             "football",
-            "golf (its relaxing!)"
+            "golf (it's relaxing!)"
         ]
     },
 }
