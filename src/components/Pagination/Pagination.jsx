@@ -5,6 +5,7 @@ const Pagination = ({resultsPerPage, totalResults, paginate}) => {
     
   const pageNumbers = [];
 
+  // Function to number pages based on results   
   for (let i = 1; i <= Math.ceil(totalResults / resultsPerPage); i++) {
     pageNumbers.push(i);
   }
