@@ -6,7 +6,7 @@ to make the loading screen more visually appealing. I would also save the search
 
 Q: What was the most useful feature that was added to the latest version of your chosen language? Please include a snippet of code that shows how you've used it.
 
-A: React recently released version 18 on March 29, 2022 which added a number of new Hooks including 'useId' which I used in this project. The 'useId' hook is used to easily give unique keys to data. For example when my app maps each book result based on the search input, each result needs to be assigned a unique id or key as per best practices. Each results is autopmatically assigned a unique key by using the new 'useId' hook. Previously this could be accomplished by using the npm 'uuid' package which requires installation. 
+A: React recently released version 18 on March 29, 2022 which added a number of new Hooks including 'useId' which I used in this project. The 'useId' hook is used to easily give unique keys to data. For example when my app maps each book result based on the search input, each result needs to be assigned a unique id or key as per best practices. Each result is automatically assigned a unique key by using the new 'useId' hook. Previously this could be accomplished by using the npm 'uuid' package which requires installation. 
 
 Code Snippet:
 
