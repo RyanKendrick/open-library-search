@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+$title: #424242;
+
+.header {
+    padding-top:1em;
+    color: $title;
+    font-family: 'Pacifico', cursive;
+    display: flex;
+    flex-direction: column;
+    padding-left: 1em;
+
+    h1, h2 {
+        margin: 0;
+        padding: 0;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    .header-title {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        
+        .header-icon {
+            height: 3em;
+            padding-right: 1em;
+        }
+    }
+}

@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+$subtitle: #616161;
+
+.nav-container {
+    justify-content: center;
+    display: flex;
+    padding: 1em;
+
+    .nav-list-container {
+        display: flex;
+        list-style: none;
+        justify-content: center;
+    }
+
+    a {
+        font-family: 'Open Sans';
+        text-decoration: none;
+        padding: .5em;
+
+        &:hover{
+            cursor: pointer;
+        }
+
+        &:visited {
+            color: $subtitle;
+        }
+
+        &:focus {
+            font-weight: bold;
+        }
+    }
+}

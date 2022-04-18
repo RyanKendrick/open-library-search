@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+$background-color: #e7e7e7;
+$subtitle: #a5a5a5;
+
+
+
+.result-container {
+    display: flex;
+    flex-direction: row;
+    background-color: $background-color;
+    margin: 0.5em 0.5em;
+    border-radius: 10px;
+
+    .cover-container {
+        height: 10rem;
+        width: 10rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0em 1em
+    }
+
+    .book-cover {
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    .book-info-container {
+        width: 30rem;
+        margin: 1em;
+    }
+
+    .book-title {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.3em;
+        padding-bottom: .5em;
+    }
+
+    .book-details {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 13px;
+        color: $subtitle;
+    }
+} 
+
+
+@media screen and (min-width: 450px) {
+    .results-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .result-container {
+        flex-direction: column;
+        width: 12rem;
+        background-color: $background-color;
+
+        .cover-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 1em 1em;
+
+            .book-cover {
+                width: auto;
+                height: 10em;
+            }
+        }
+    }
+
+    
+    .book-info-container {
+
+        width: 8em;
+
+        .book-title {
+            overflow-wrap: break-word;
+            width: 8em;
+            padding-bottom: .5em;
+        }
+        .book-details {
+            overflow-wrap: break-word;
+            width: 8em;
+        }
+    }
+    
+
+}
