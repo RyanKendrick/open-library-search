@@ -67,7 +67,7 @@ Q: Please describe yourself using correctly formatted JSON.
             "hiking",
             "golf",
             "tennis",
-            "skiing",
+            "skiing"
         ],
         "sports-watching": [
             "basketball",
