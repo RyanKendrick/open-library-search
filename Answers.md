@@ -1,6 +1,6 @@
 Q: How long did you spend on the coding assignment? 
 
-A: I spent aproximately 24 total hours over a span of 3 days to complete the assignment. If I had more time I would add a loading animation instead of only the "Loading..." text 
+A: I spent approximately 24 total hours over a span of 3 days to complete the assignment. If I had more time I would add a loading animation instead of only the "Loading..." text 
 to make the loading screen more visually appealing. I would also save the search results in localStorage so that when the page is refreshed, the user can still see the results from their previous seach. I would also add a default book cover image for results that do not have an image included, as it currently only renders as blank. User authentication could also be added which could enable users to save their own lists of books, to like and share book results and to have a rating system for results. 
 
 
