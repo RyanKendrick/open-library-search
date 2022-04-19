@@ -60,7 +60,7 @@ Q: Please describe yourself using correctly formatted JSON.
                 ]
             }
         ],
-        "outdoors-activies": [
+        "outdoor-activies": [
             "biking",
             "fishing",
             "camping",
