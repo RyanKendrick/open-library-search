@@ -17,7 +17,6 @@ import { useId } from 'react';
 
 const Results = ({data}) => {
 
-  
   const key = useId()
  
   return (
