@@ -17,7 +17,7 @@ const Pagination = ({resultsPerPage, totalResults, paginate}) => {
                 <div className='nav-list-container'>
                     {pageNumbers.map(number => (
                         <div>
-                            <a onClick={() => paginate(number)} href='!#'>
+                            <a onClick={() => paginate(number)} href='#'>
                                 {number}
                             </a>
                         </div>
