@@ -2,7 +2,7 @@
 
 #### Search for books using [Open Library API](https://openlibrary.org/developers/api)
 
-[See demo](https://open-library-search.vercel.app/)
+[See deployed app](https://open-library-search.vercel.app/)
 
 ```
 npm install
